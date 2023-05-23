@@ -68,4 +68,6 @@ return require('packer').startup(function(use)
 
   use("tpope/vim-vinegar")
 
+  use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
+
 end)
